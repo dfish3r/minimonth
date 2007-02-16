@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module>
+  <ModulePrefs title="MiniMonth" description="A clickable mini view of a month" author="Daniel Fisher" author_email="daniel.fisher+minimonth_module@gmail.com" screenshot="http://www.middleware.vt.edu/google/minimonth.png" author_location="Blacksburg, VA" height="235" scaling="false"/>
+  <UserPref name="size" display_name="Size" default_value="medium" datatype="enum">
+    <EnumValue value="small"/>
+    <EnumValue value="medium"/>
+    <EnumValue value="large"/>
+  </UserPref>
+  <UserPref name="timezone" display_name="Time Zone" default_value="-0500" datatype="enum">
+    <EnumValue value="-1200"/>
+    <EnumValue value="-1100"/>
+    <EnumValue value="-1000"/>
+    <EnumValue value="-0930"/>
+    <EnumValue value="-0900"/>
+    <EnumValue value="-0830"/>
+    <EnumValue value="-0800"/>
+    <EnumValue value="-0700"/>
+    <EnumValue value="-0600"/>
+    <EnumValue value="-0500"/>
+    <EnumValue value="-0400"/>
+    <EnumValue value="-0330"/>
+    <EnumValue value="-0300"/>
+    <EnumValue value="-0200"/>
+    <EnumValue value="-0100"/>
+    <EnumValue value="+0000"/>
+    <EnumValue value="+0100"/>
+    <EnumValue value="+0200"/>
+    <EnumValue value="+0300"/>
+    <EnumValue value="+0330"/>
+    <EnumValue value="+0400"/>
+    <EnumValue value="+0430"/>
+    <EnumValue value="+0500"/>
+    <EnumValue value="+0530"/>
+    <EnumValue value="+0600"/>
+    <EnumValue value="+0630"/>
+    <EnumValue value="+0700"/>
+    <EnumValue value="+0800"/>
+    <EnumValue value="+0900"/>
+    <EnumValue value="+0930"/>
+    <EnumValue value="+1000"/>
+    <EnumValue value="+1030"/>
+    <EnumValue value="+1100"/>
+    <EnumValue value="+1130"/>
+    <EnumValue value="+1200"/>
+    <EnumValue value="+1300"/>
+    <EnumValue value="+1400"/>
+  </UserPref>
+  <UserPref name="daylightsavings" display_name="Use Daylights Savings?" default_value="true" datatype="bool"/>
+  <UserPref name="startday" display_name="Start Day" default_value="sunday" datatype="enum">
+    <EnumValue value="sunday"/>
+    <EnumValue value="monday"/>
+    <EnumValue value="tuesday"/>
+    <EnumValue value="wednesday"/>
+    <EnumValue value="thursday"/>
+    <EnumValue value="friday"/>
+    <EnumValue value="saturday"/>
+  </UserPref>
+  <UserPref name="fontcolor" display_name="Font Color" default_value="black" datatype="enum">
+    <EnumValue value="black"/>
+    <EnumValue value="grey"/>
+    <EnumValue value="white"/>
+    <EnumValue value="red"/>
+    <EnumValue value="purple"/>
+    <EnumValue value="green"/>
+    <EnumValue value="yellow"/>
+    <EnumValue value="blue"/>
+    <EnumValue value="orange"/>
+    <EnumValue value="brown"/>
+  </UserPref>
+  <UserPref name="thismonthcolor" display_name="This Month Color" default_value="white" datatype="enum">
+    <EnumValue value="black"/>
+    <EnumValue value="grey"/>
+    <EnumValue value="white"/>
+    <EnumValue value="red"/>
+    <EnumValue value="purple"/>
+    <EnumValue value="green"/>
+    <EnumValue value="yellow"/>
+    <EnumValue value="blue"/>
+    <EnumValue value="orange"/>
+    <EnumValue value="brown"/>
+  </UserPref>
+  <UserPref name="lastmonthcolor" display_name="Last Month Color" default_value="grey" datatype="enum">
+    <EnumValue value="black"/>
+    <EnumValue value="grey"/>
+    <EnumValue value="white"/>
+    <EnumValue value="red"/>
+    <EnumValue value="purple"/>
+    <EnumValue value="green"/>
+    <EnumValue value="yellow"/>
+    <EnumValue value="blue"/>
+    <EnumValue value="orange"/>
+    <EnumValue value="brown"/>
+  </UserPref>
+  <UserPref name="nextmonthcolor" display_name="Next Month Color" default_value="grey" datatype="enum">
+    <EnumValue value="black"/>
+    <EnumValue value="grey"/>
+    <EnumValue value="white"/>
+    <EnumValue value="red"/>
+    <EnumValue value="purple"/>
+    <EnumValue value="green"/>
+    <EnumValue value="yellow"/>
+    <EnumValue value="blue"/>
+    <EnumValue value="orange"/>
+    <EnumValue value="brown"/>
+  </UserPref>
+  <UserPref name="todaycolor" display_name="Today Color" default_value="blue" datatype="enum">
+    <EnumValue value="black"/>
+    <EnumValue value="grey"/>
+    <EnumValue value="white"/>
+    <EnumValue value="red"/>
+    <EnumValue value="purple"/>
+    <EnumValue value="green"/>
+    <EnumValue value="yellow"/>
+    <EnumValue value="blue"/>
+    <EnumValue value="orange"/>
+    <EnumValue value="brown"/>
+  </UserPref>
+  <UserPref name="holidaycolor" display_name="Holiday Color" default_value="brown" datatype="enum">
+    <EnumValue value="black"/>
+    <EnumValue value="grey"/>
+    <EnumValue value="white"/>
+    <EnumValue value="red"/>
+    <EnumValue value="purple"/>
+    <EnumValue value="green"/>
+    <EnumValue value="yellow"/>
+    <EnumValue value="blue"/>
+    <EnumValue value="orange"/>
+    <EnumValue value="brown"/>
+  </UserPref>
+  <UserPref name="showmoon" display_name="Show Moon Phases?" default_value="true" datatype="bool"/>
+  <UserPref name="showholidays" display_name="Show Holidays?" default_value="true" datatype="bool"/>
+  <UserPref name="showarrows" display_name="Show Arrows?" default_value="true" datatype="bool"/>
+  <Content type="url" href="http://www.middleware.vt.edu/google/google_minimonth.php"/>
+</Module>
